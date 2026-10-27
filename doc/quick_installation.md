@@ -26,11 +26,16 @@ On Windows:
 copy .env.example .env
 ```
 
+## Application key
+
+```bash
+php artisan key:generate
+```
+
 ## Database
 
 ```bash
 php artisan migrate
-php artisan key:generateCopy
 ```
 
 ## Start server
